@@ -1,6 +1,6 @@
 ///Componente que renderiza el navbar 
 import React from "react";
-import image from "../assets/images/monitor.png";
+import image from "../assets/images/grafico-de-computadora.png";
 
 export function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -13,7 +13,7 @@ export function Navbar({ fixed }) {
               className="text-sm font-medium leading-relaxed inline-block mr-4 py-0 whitespace-nowrap  text-violet-900"
               href="/"
             >
-              <img src={image} alt="voces-expertas-logo" width="200px" />
+              <img src={image} alt="voces-expertas-logo" width="100px" className="my-1"/>
             </a>
             <button
               className="text-violet-900 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -37,25 +37,25 @@ export function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-1 flex items-center text-sm  font-medium leading-snug text-purple-900 hover:opacity-75"
-                  href="/faq"
+                  href="https://redirectdetective.com/"
                 >
-                  <span className="ml-2">FAQ</span>
+                  <span className="ml-2">Redirect Detective</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="px-3 py-1 flex items-center text-sm  font-medium leading-snug text-purple-900 hover:opacity-75"
-                  href="/acerca-del-proyecto"
+                  href="https://pagespeed.web.dev/"
                 >
-                  <span className="ml-2">Acerca del Proyecto</span>
+                  <span className="ml-2">Page Speed Insights</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="px-3 py-1 flex items-center text-sm  font-medium leading-snug text-purple-900 hover:opacity-75"
-                  href="/register"
+                  href="https://chat.openai.com/auth/login"
                 >
-                  <span className="ml-2">Quiero ser una experta</span>
+                  <span className="ml-2">Chat GPT</span>
                 </a>
               </li>
               <li className="nav-item">
